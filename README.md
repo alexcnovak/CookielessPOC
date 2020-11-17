@@ -1,2 +1,6 @@
 # CookielessPOC
-Merging appMeasurement and visitorID code
+
+Merged appMeasurement and visitorID code
+=======
+WIP AppMeasurement js file
+
