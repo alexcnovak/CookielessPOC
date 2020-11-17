@@ -18,10 +18,10 @@ Version and copyright section
 
 var visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg", {
      trackingServer: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServer
-     trackingServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE", // same as s.trackingServerSecure
+     trackingServerSecure: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServerSecure
  
      // To enable CNAME support, add the following configuration variables 
      // If you are not using CNAME, DO NOT include these variables 
-     marketingCloudServer: "eymeasurement.com.sc.omtrdc.net",
-     marketingCloudServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE" // same as s.trackingServerSecure 
+     // marketingCloudServer: "eymeasurement.com.sc.omtrdc.net",
+     // marketingCloudServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE" // same as s.trackingServerSecure 
 }); 
