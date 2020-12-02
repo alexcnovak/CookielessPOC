@@ -1,3 +1,7 @@
+// Instantiate the Analytics tracking object with report suite ID
+var s_account = "ageo1xxpnwcookielesspoc";
+var s=s_gi(s_account);
+
 /************************** CONFIG SECTION **************************/ 
 /* You may add or alter any code config here. */ 
 /* Link Tracking Config */ 
@@ -24,9 +28,6 @@ made when instructed to do so by your account manager.*/
 // s.trackingServer="INSERT-TRACKING-SERVER-HERE" 
 // s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE" 
 
-// Instantiate the Analytics tracking object with report suite ID
-var s_account = "ageo1xxpnwcookielesspoc";
-var s=s_gi(s_account);
 // Make sure data is sent to the correct location
 s.trackingServer = "eymeasurement.com.sc.omtrdc.net";
 
