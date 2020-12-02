@@ -8,11 +8,6 @@ s.trackingServer = "eymeasurement.com.sc.omtrdc.net";
 // https://example.com?extcid=campaignName
 s.campaign = s.Util.getQueryParam("extcid");
 
-// Page level variables
-s.pageName = "Alex's Cookieless POC page";
-s.eVar1 = s.visitor;
-s.eVar2 = "visitor stitching";
-
 // Visitor ID function
 s.visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg");
 
@@ -51,7 +46,12 @@ changes to how your visitor data is collected. Changes should only be
 made when instructed to do so by your account manager.*/ 
 // s.trackingServer="INSERT-TRACKING-SERVER-HERE" 
 // s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE" 
-  
+
+// Page level variables
+s.pageName = "Alex's Cookieless POC page";
+s.eVar1 = s.visitor;
+s.eVar2 = "visitor stitching";
+
 /************************** PLUGINS SECTION *************************/ 
 // copy and paste implementation plug-ins here - See "Implementation Plug-ins" @ 
 // https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/impl-plugins.html 
