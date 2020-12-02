@@ -5,13 +5,13 @@ var s=s_gi(s_account);
 /************************** CONFIG SECTION **************************/ 
 /* You may add or alter any code config here. */ 
 /* Link Tracking Config */ 
-s.trackDownloadLinks=true; 
-s.trackExternalLinks=true; 
+s.trackDownloadLinks = true; 
+s.trackExternalLinks = true; 
 // s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,pdf,doc,docx,xls,xlsx,ppt,pptx" 
 // s.linkInternalFilters="javascript:" //optional: add your internal domain here 
-s.linkLeaveQueryString=false ;
-s.linkTrackVars="None"; 
-s.linkTrackEvents="None"; 
+s.linkLeaveQueryString = false ;
+s.linkTrackVars = "None"; 
+s.linkTrackEvents = "None"; 
 /* uncomment below to use doPlugins */ 
 /* s.usePlugins=true 
 function s_doPlugins(s) { 
