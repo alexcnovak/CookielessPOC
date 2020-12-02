@@ -5,7 +5,7 @@ var s=s_gi(s_account);
 /************************** CONFIG SECTION **************************/ 
 /* You may add or alter any code config here. */ 
 /* Link Tracking Config */ 
-s.trackDownloadLinks = true; 
+// s.trackDownloadLinks = true; 
 s.trackExternalLinks = true; 
 // s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,pdf,doc,docx,xls,xlsx,ppt,pptx" 
 // s.linkInternalFilters="javascript:" //optional: add your internal domain here 
