@@ -2,8 +2,7 @@
 <html>
 <head>
 <title>Page Title</title>
-<script src="VisitorAPI.js"></script>
-<script src="AppMeasurement.js"></script>
+<script src="/CookielessPOC/AppMeasurement.js"></script>
 </head>
 <body>
 
