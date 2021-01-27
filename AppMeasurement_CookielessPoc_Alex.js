@@ -36,8 +36,6 @@ s.trackingServer = "eymeasurement.com.sc.omtrdc.net";
 // s.campaign = s.Util.getQueryParam("extcid");
 
 // Visitor ID function
-s.visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg");
-
 var visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg", {
      trackingServer: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServer
      //trackingServerSecure: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServerSecure
@@ -47,6 +45,8 @@ var visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg", {
      //marketingCloudServer: "eymeasurement.com.sc.omtrdc.net"//,
      // marketingCloudServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE" // same as s.trackingServerSecure
 });
+
+s.visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg");
 
 // Page level variables
 s.pageName = "Alex's Cookieless POC page";
