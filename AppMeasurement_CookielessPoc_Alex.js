@@ -162,4 +162,6 @@ var visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg", {
 });
 
 // Send data to AA
-s.t();
+var s_code = s.t();
+
+if (s_code) document.write(s_code);
