@@ -35,19 +35,7 @@ s.trackingServer = "eymeasurement.com.sc.omtrdc.net";
 // https://example.com?extcid=campaignName
 // s.campaign = s.Util.getQueryParam("extcid");
 
-// Visitor ID function
-s.visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg");
 
-var visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg", {
-     trackingServer: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServer
-     //trackingServerSecure: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServerSecure
- 
-     // To enable CNAME support, add the following configuration variables 
-     // If you are not using CNAME, DO NOT include these variables 
-     //marketingCloudServer: "eymeasurement.com.sc.omtrdc.net"//,
-     // marketingCloudServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE" // same as s.trackingServerSecure
-  idSyncAttachIframeOnWindowLoad: true
-});
 
 // Page level variables
 s.pageName = "Alex's Cookieless POC page";
@@ -158,6 +146,20 @@ c.bubbles,c.cancelable,c.view,c.detail,c.screenX,c.screenY,c.clientX,c.clientY,c
 0<=navigator.userAgent.indexOf("Firefox/2")&&h.MouseEvent)&&(a.Ia=1,a.useForcedLinkTracking=1,a.b.addEventListener("click",a.r,!0)),a.b.addEventListener("click",a.r,!1))):setTimeout(a.Xa,30)};a.fc=a.ya();a.Kb();a.mc||(r?a.setAccount(r):a.C("Error, missing Report Suite ID in AppMeasurement initialization"),a.Xa(),a.loadModule("ActivityMap"))}
 function s_gi(r){var a,h=window.s_c_il,q,p,m=r.split(","),s,u,t=0;if(h)for(q=0;!t&&q<h.length;){a=h[q];if("s_c"==a._c&&(a.account||a.oun))if(a.account&&a.account==r)t=1;else for(p=a.account?a.account:a.oun,p=a.allAccounts?a.allAccounts:p.split(","),s=0;s<m.length;s++)for(u=0;u<p.length;u++)m[s]==p[u]&&(t=1);q++}t?a.setAccount&&a.setAccount(r):a=new AppMeasurement(r);return a}AppMeasurement.getInstance=s_gi;window.s_objectID||(window.s_objectID=0);
 function s_pgicq(){var r=window,a=r.s_giq,h,q,p;if(a)for(h=0;h<a.length;h++)q=a[h],p=s_gi(q.oun),p.setAccount(q.un),p.setTagContainer(q.tagContainerName);r.s_giq=0}s_pgicq();
+
+// Visitor ID function
+s.visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg");
+
+var visitor = Visitor.getInstance("0F6446D257BEE2D57F000101@AdobeOrg", {
+     trackingServer: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServer
+     //trackingServerSecure: "eymeasurement.com.sc.omtrdc.net", // same as s.trackingServerSecure
+ 
+     // To enable CNAME support, add the following configuration variables 
+     // If you are not using CNAME, DO NOT include these variables 
+     //marketingCloudServer: "eymeasurement.com.sc.omtrdc.net"//,
+     // marketingCloudServerSecure: "INSERT-SECURE-TRACKING-SERVER-HERE" // same as s.trackingServerSecure
+  idSyncAttachIframeOnWindowLoad: true
+});
 
 // Send data to AA
 s.t();
